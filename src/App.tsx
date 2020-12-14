@@ -1,7 +1,13 @@
 import React from 'react';
 
-export default class App extends React.Component<any, any> {
+/**
+ * App
+ * @return {JSX.Element}
+ */
+class App extends React.Component<any, any> {
   render = (): JSX.Element => (
-      <h1>BC LABS Co., Ltd.</h1>
+    <h1>BC LABS Co., Ltd.</h1>
   );
 };
+
+export default App;

@@ -1,0 +1,34 @@
+body {
+    background: #ffffff;
+    text-align: center;
+}
+
+.contents {
+    width: 100%;
+    position: fixed;
+    top: calc(50% - 114px);
+
+    margin: auto;
+
+    h1 {
+        font-size: 800%;
+        margin: 0;
+        padding: 0;
+    
+        .bc {
+            color: #ffbe32;
+        }
+        .labs {
+            color: #202020;
+        }
+    }
+    
+    h2 {
+        color: #202020;
+        font-size: 200%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+

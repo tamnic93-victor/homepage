@@ -1,4 +1,6 @@
 import React from 'react';
+import './App.css';
+
 
 /**
  * App
@@ -6,7 +8,13 @@ import React from 'react';
  */
 class App extends React.Component<any, any> {
   render = (): JSX.Element => (
-    <h1>BC LABS Co., Ltd.</h1>
+    <div>
+      <h1>BC</h1>
+      <h1 style={{color: #202020}}>LABS</h1>
+      <h2>
+        A universal access to digital asset management<br></br>
+        for anyone, anytime, and anywhere.</h2>
+    </div>
   );
 };
 

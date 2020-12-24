@@ -6,16 +6,32 @@ body {
 }
 
 
-.bc {
-    color: #ffbe32;
-    margin-right: 8px;
-    padding: 0px;
+.textlogo {
+    font-size: 2rem;
+    .bc {
+        color: #ffbe32;
+        margin-right: 8px;
+        padding: 0px;
+    }
+    .labs {
+        color: #000000;
+        margin: 0px;
+        padding: 0px;
+    }
 }
-    
-.labs {
-    color: #000000;
-    margin: 0px;
-    padding: 0px;
+
+.title {
+    font-size: 2.4rem;
+    color: #202020;
+    text-align: center;
+    padding: 1rem;
+}
+
+.slogan {
+    font-size: 1rem;
+    color: #202020;
+    text-align: center;
+    padding: 0.4rem;
 }
 
 

@@ -12,22 +12,24 @@ class App extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container style={{backgroundImage: 'url(./images/topimage.png)'}} fluid>
       <Row>
-        <Col>
-          <span className="bc">BC</span>
-          <span className="labs">Labs</span>
+        <Col className='textlogo'>
+          <span className="bc"><b>BC</b></span>
+          <span className="labs"><b>Labs</b></span>
         </Col>
       </Row>
-      <Row>
-        <Col>
-        Universal Access to Digital Asset Management<br></br>
-“ for Anyone, Anytime, Anywhere ”
+      <Row className="justify-content-center">
+        <Col xs={10} md={10} lg={10}>
+          <div className="title">Universal Access to Digital
+Asset Management<br></br>“ for Anyone, Anytime, Anywhere ”</div>
         </Col>
       </Row>
-      <Row>
-        <Col>With a team specializing in fintech,
+      <Row className="justify-content-center">
+        <Col xs={10} md={10} lg={10}>
+          <p className="slogan">With a team specializing in fintech,
 blockchain and data analytics, we seek to harness the
 cutting-edge innovations and address the growing
 technology gap in the global financial industry.
+          </p>
         </Col>
       </Row>
     </Container>

@@ -2,12 +2,7 @@
 
 
 body {
-    background: #ffffff;
-    background-image: url("./images/topimage.png");
-    background-attachment: fixed;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #ffffff url("./images/topimage.png") top center/cover no-repeat fixed ;
 }
 
 
@@ -38,5 +33,3 @@ body {
     text-align: center;
     padding: 0.4rem;
 }
-
-

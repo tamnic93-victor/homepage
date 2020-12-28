@@ -2,34 +2,68 @@
 
 
 body {
-    background: #ffffff url("./images/topimage.png") top center/cover no-repeat fixed ;
+    background: #ffffff
+}
+
+#section1 {
+    background: url("./images/topimage.png") center/cover no-repeat fixed;
+    height: 100vh;
+}
+
+#section2 {
+    background: #ffffff no-repeat center/cover;
+    height: 100vh;
+}
+
+#section3 {
+    background: #ffbe32 no-repeat center/cover;
+    height: 100vh;
+}
+
+#section4 {
+    background: #ffffff no-repeat center/cover;
+    height: 100vh;
+}
+
+#section5 {
+    background: #000000 no-repeat center/cover;
+    height: 10vh;
+}
+
+.logo{
+    padding-top: 2vh;
+    padding-left: 2.4vh;
 }
 
 
-.textlogo {
-    font-size: 2rem;
-    .bc {
-        color: #ffbe32;
-        margin-right: 8px;
-        padding: 0px;
-    }
-    .labs {
-        color: #000000;
-        margin: 0px;
-        padding: 0px;
-    }
-}
-
-.title {
-    font-size: 2.4rem;
-    color: #202020;
+.mainphrase {
+    color: #282828;
     text-align: center;
-    padding: 1rem;
+    line-height: 1.71;
+    letter-spacing: 0.28px;
+    margin-top: 24vh;
+    margin-bottom: 8vh;
+
+    .title1 {
+        font-size: 2.8rem;
+        font-size: 3.4vw;
+        font-weight: 700;
+        margin-bottom: 2vh;
+    }
+    .title2 {
+        font-size: 2.8rem;
+        font-size: 3.4vw;
+        font-weight: normal;
+    }
+
 }
 
 .slogan {
-    font-size: 1rem;
-    color: #202020;
+    font-size: 1.1rem;
+    font-size: 1.2vw;
+    color: #282828;
     text-align: center;
     padding: 0.4rem;
+    line-height: 2.14;
+    letter-spacing: 0.35px;
 }

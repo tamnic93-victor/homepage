@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Col, Container, Row} from 'react-bootstrap';
-
+import top from './images/topimage.png';
 
 /**
  * App
@@ -19,16 +19,19 @@ class App extends React.Component<any, any> {
       </Row>
       <Row className="justify-content-center">
         <Col xs={10} md={10} lg={10}>
-          <div className="title">Universal Access to Digital
-Asset Management<br></br>“ for Anyone, Anytime, Anywhere ”</div>
+          <div className="title">
+            Universal Access to Digital
+            Asset Management<br/>“ for Anyone, Anytime, Anywhere ”
+            <img src={top} />
+          </div>
         </Col>
       </Row>
       <Row className="justify-content-center">
         <Col xs={10} md={10} lg={10}>
           <p className="slogan">With a team specializing in fintech,
-blockchain and data analytics, we seek to harness the
-cutting-edge innovations and address the growing
-technology gap in the global financial industry.
+            blockchain and data analytics, we seek to harness the
+            cutting-edge innovations and address the growing
+            technology gap in the global financial industry.
           </p>
         </Col>
       </Row>

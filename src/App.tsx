@@ -28,20 +28,20 @@ class App extends React.Component<any, any> {
             />
           </NavbarBrand>
         </Navbar>
-        <Row>
-          <Col>
-            <div className="mainphrase">
-              <h1 className="title1">
-                Universal Access to Digital Asset Management
-              </h1>
-              <h2 className="title2">
-                “for Anyone, Anytime, Anywhere”
-              </h2>
-            </div>
+        <Row className="justify-content-center">
+          <Col className="mainphrase1" xs={10} sm={10} md={10} lg={10} xl={12}>
+            <h1 className="title1">
+              Universal Access to Digital Asset Management
+            </h1>
+          </Col>
+          <Col className="mainphrase2">
+            <h2 className="title2">
+              “for Anyone, Anytime, Anywhere”
+            </h2>
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col xs={10} md={8} lg={8} xl={6}>
+          <Col xs={8} sm={8} md={8} lg={8} xl={6}>
             <p className="slogan">
               With a team specializing in fintech, blockchain and data
               analytics, we seek to harness the cutting-edge innovations

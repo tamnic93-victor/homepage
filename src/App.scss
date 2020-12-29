@@ -36,36 +36,124 @@ body {
 }
 
 
-.mainphrase {
+.mainphrase1 {
     color: #282828;
     text-align: center;
     line-height: 1.71;
     letter-spacing: 0.28px;
-    margin-top: 24vh;
-    margin-bottom: 8vh;
+    margin-bottom: 0.5vh;
 
-    .title1 {
-        font-size: 2.8rem;
-        font-size: 3.4vw;
+    > .title1 {
         font-weight: 700;
-        margin-bottom: 2vh;
-    }
-    .title2 {
-        font-size: 2.8rem;
-        font-size: 3.4vw;
-        font-weight: normal;
+        font-size: 10vw;
+        margin-top: 10vh;
+        line-height: 1.4;
     }
 
+    @media (min-width: 576px) {
+        .title1 {
+          font-size: 7vw;
+          line-height: 1.7;
+          margin-top: 16vh;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .title1 {
+          font-size: 7vw;
+          line-height: 1.7;
+          margin-top: 14vh;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .title1 {
+          font-size: 6vw;
+          line-height: 1.7;
+          margin-top: 20vh;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .title1 {
+          font-size: 3.4vw;
+          margin-top: 24vh;
+        }
+    }
 }
 
+.mainphrase2 {
+    color: #282828;
+    text-align: center;
+    line-height: 1.71;
+    letter-spacing: 0.28px;
+    margin-bottom: 5vh;
+
+    > .title2 {
+        font-size: 4.6vw;
+        font-weight: normal;
+        margin-top: 2vh;
+    }
+
+    @media (min-width: 576px) {
+        .title2 {
+          font-size: 4.6vw;
+          margin-top: 1vh;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .title2 {
+          font-size: 4.4vw;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .title2 {
+          font-size: 4.4vw;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .title2 {
+          font-size: 3.4vw;
+        }
+    }
+}
+
+
 .slogan {
-    font-size: 1.1rem;
     font-size: 1.2vw;
     color: #282828;
     text-align: center;
     padding: 0.4rem;
     line-height: 2.14;
     letter-spacing: 0.35px;
+}
+
+@media (min-width: 576px) {
+    .slogan {
+      font-size: 2vw;
+      margin-top: 1vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .slogan {
+      font-size: 3vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .slogan {
+      font-size: 4vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slogan {
+      font-size: 1vw;
+    }
 }
 
 .title3 {

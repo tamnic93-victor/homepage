@@ -16,7 +16,7 @@ body {
 }
 
 #section3 {
-    background: #ffbe32 no-repeat center/cover;
+    background: #f9f9f9 no-repeat center/cover;
     height: 100vh;
 }
 
@@ -66,4 +66,70 @@ body {
     padding: 0.4rem;
     line-height: 2.14;
     letter-spacing: 0.35px;
+}
+
+.title3 {
+    font-size: 2rem;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 14vh;
+}
+
+.pantheonx {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(54, 59, 86, 0.5);
+}
+
+.volta {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(54, 59, 86, 0.5);
+
+}
+
+.ourwork {
+    margin-top: 10vh;
+}
+
+.brand {
+    font-size: 1.6vw;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 6vh;
+    color: #333333;
+    letter-spacing: 0.06vw;
+}
+
+.brandexplain {
+    font-size: 1vw;
+    font-weight: normal;
+    color: #6f6f6f;
+    text-align: center;
+    margin-top: 2vh;
+    line-height: 2;
+}
+
+.footertext {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #c8c8c8;
+    margin: 4.2vh 0 0 4vw;
+}
+
+.partners1 {
+    margin-top: 8vh;
+}
+
+.partners2 {
+    margin-top: 4vh;
+}
+
+.partnersimage {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 10px 0 rgba(211, 211, 211, 0.5);
 }

@@ -41,7 +41,7 @@ class App extends React.Component<any, any> {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col xs={8} sm={8} md={8} lg={8} xl={6}>
+          <Col xs={10} sm={10} md={8} lg={8} xl={6}>
             <p className="slogan">
               With a team specializing in fintech, blockchain and data
               analytics, we seek to harness the cutting-edge innovations

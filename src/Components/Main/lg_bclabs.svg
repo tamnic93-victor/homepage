@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="27px" version="1.1" viewBox="0 0 124 27" width="124px"
+  xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd" font-family="NotoSansKR-Black, Noto Sans KR" font-size="32"
+    font-weight="700"
+    id="Screen" stroke="none" stroke-width="1">
+    <g id="1536" transform="translate(-42.000000, -37.000000)">
+      <g id="screen1" transform="translate(0.000000, 0.000000)">
+        <text id="lg_bclabs">
+          <tspan fill="#FFBE32" x="40.204" y="63">BC</tspan>
+          <tspan fill="#FFFFFF" x="91.116" y="63">Labs</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+  <title>lg_bclabs</title>
+</svg>

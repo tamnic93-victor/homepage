@@ -9,7 +9,7 @@ import logo from './lg_bclabs.svg';
 class Main extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg" fluid>
-      <Navbar className='d-flex logo'>
+      <Navbar>
         <NavbarBrand>
           <img
             src={logo}
@@ -25,7 +25,7 @@ class Main extends React.Component<any, any> {
           <h2 className="mb-5">
             “for Anyone, Anytime, Anywhere”
           </h2>
-          <p>
+          <p className="mb-5">
             With a team specializing in fintech, blockchain and data
             analytics, we seek to harness the cutting-edge innovations
             and address the growing technology gap in the global

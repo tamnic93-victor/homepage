@@ -19,10 +19,10 @@ class Main extends React.Component<any, any> {
       </Navbar>
       <Row className="vh-100 justify-content-center align-items-center">
         <Col sm={10} md={8} xl={6} className="text-center">
-          <h1>
+          <h1 className="mb-5">
             Universal Access to Digital Asset Management
           </h1>
-          <h2>
+          <h2 className="mb-5">
             “for Anyone, Anytime, Anywhere”
           </h2>
           <p>

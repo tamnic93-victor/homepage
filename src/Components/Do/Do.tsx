@@ -12,17 +12,32 @@ class Do extends React.Component<any, any> {
     <Container className="bg-w" fluid>
       <Row className="vh-100 justify-content-center align-items-center">
         <Col xs={12} className="text-center">
-          <h3>What We Do</h3>
+          <h2
+            className="sectiontitle"
+            data-aos="fade-down"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+              What We Do
+          </h2>
         </Col>
-        <Col md lg xl={3}>
-          <img src={pantheonx} className="img-fluid"/>
+        <Col md lg xl={4}>
+          <a href="https://pantheonx.io/#/home/en">
+            <img
+              src={pantheonx}
+              className="img-fluid"
+            />
+          </a>
           <h4 className="brand">Pantheon X</h4>
           <p className="brandexplain">
             A blockchain project that seeks to realize an open
             business platform for digital asset finance.
           </p>
         </Col>
-        <Col md lg xl={{span: 3, offset: 2}}>
+        <Col md lg xl={{span: 4, offset: 1}}>
           <img src={volta} className="img-fluid"/>
           <h4 className="brand">VOLTA</h4>
           <p className="brandexplain">

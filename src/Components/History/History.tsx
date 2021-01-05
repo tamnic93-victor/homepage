@@ -8,9 +8,9 @@ import {Col, Container, Row} from 'react-bootstrap';
 class History extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-g" fluid>
-      <Row className="vh-100 justify-content-center align-items-center">
+      <Row className="justify-content-center align-items-center">
         <Col className="text-center">
-          <h3 className="title3">Company History</h3>
+          <h3 className="sectiontitle">Company History</h3>
           <h5>Mar 2018</h5>
           <h6>Company foundation</h6>
           <h5>Feb 2019</h5>

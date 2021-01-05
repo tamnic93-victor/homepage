@@ -1,7 +1,8 @@
 import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
-import pantheonx from './img_pantheonx.png';
-import volta from './img_volta.png';
+import pantheonx from './img_pantheonx.svg';
+import volta from './img_volta.svg';
+import './Do.scss';
 
 /**
  * Do
@@ -10,7 +11,7 @@ import volta from './img_volta.png';
 class Do extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-w" fluid>
-      <Row className="vh-100 justify-content-center align-items-center">
+      <Row className="vh-100 justify-content-center">
         <Col xs={12} className="text-center">
           <h2
             className="sectiontitle"
@@ -25,10 +26,9 @@ class Do extends React.Component<any, any> {
           </h2>
         </Col>
         <Col md lg xl={4}>
-          <a href="https://pantheonx.io/#/home/en">
+          <a href="https://pantheonx.io/#/home/en" className="pantheonx_bg">
             <img
-              src={pantheonx}
-              className="img-fluid"
+              src={pantheonx} className="pantheonx"
             />
           </a>
           <h4 className="brand">Pantheon X</h4>
@@ -38,7 +38,11 @@ class Do extends React.Component<any, any> {
           </p>
         </Col>
         <Col md lg xl={{span: 4, offset: 1}}>
-          <img src={volta} className="img-fluid"/>
+          <a href="https://volta.link/landing" className="volta_bg">
+            <img
+              src={volta} className="volta"
+            />
+          </a>
           <h4 className="brand">VOLTA</h4>
           <p className="brandexplain">
             All-in-one digital asset management platform

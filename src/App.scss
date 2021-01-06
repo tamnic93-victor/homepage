@@ -1,21 +1,5 @@
 .vh-100 {
-  height: 100%;
-}
-
-.bg {
-  background: transparent url("./images/topimage.png") center/cover no-repeat fixed;
-}
-
-.bg-w {
-  background: #ffffff;
-}
-
-.bg-g {
-  background: #f9f9f9;
-}
-
-.bg-b {
-  background: #000000;
+  height: 100vh;
 }
 
 .sectiontitle {
@@ -27,12 +11,12 @@
   margin-bottom: 6rem;
 }
 
-.mb-10 {
-  margin-bottom: 15rem;
-}
-
 .mb-8 {
   margin-bottom: 10rem;
+}
+
+.mb-10 {
+  margin-bottom: 15rem;
 }
 
 .px-10 {

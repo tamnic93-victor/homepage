@@ -11,7 +11,7 @@ import './Main.scss';
  */
 class Main extends React.Component<any, any> {
   render = (): JSX.Element => (
-    <Container className="bg" fluid>
+    <Container className="bg-Main" fluid>
       <Navbar className="justify-content-center">
         <span className="logo">
           <img src={logo} alt="BCLabs" />
@@ -29,7 +29,7 @@ class Main extends React.Component<any, any> {
             data-aos-mirror="true"
             data-aos-once="false"
           >
-            Universal Access to<br/>Digital Asset Management
+            Universal Access to Digital Asset Management
           </h1>
           <p
             className="slogan"

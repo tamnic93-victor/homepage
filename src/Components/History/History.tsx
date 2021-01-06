@@ -37,7 +37,7 @@ const classNameDd = 'history mb-5';
  */
 class History extends React.Component<any, any> {
   render = (): JSX.Element => (
-    <Container className="bg-g" fluid>
+    <Container className="bg-History" fluid>
       <Row className="justify-content-center">
         <Col className="text-center mb-10">
           <h3 className="sectiontitle">Company History</h3>

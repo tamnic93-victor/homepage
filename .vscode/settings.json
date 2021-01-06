@@ -9,11 +9,5 @@
         "html",
         "markdown"
     ],
-<<<<<<< HEAD
     "editor.rulers": [80,120]
-=======
-    "editor.rulers": [
-        80,120
-    ]
->>>>>>> a0e30a70c1b6606efbe1ec816d09ede634a61f3a
 }

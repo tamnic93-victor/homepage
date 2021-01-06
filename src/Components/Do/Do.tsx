@@ -11,7 +11,7 @@ import './Do.scss';
 class Do extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-w" fluid>
-      <Row className="justify-content-center align-items-center">
+      <Row className="justify-content-center mb-10">
         <Col xs={12} className="text-center">
           <h2
             className="sectiontitle"
@@ -50,7 +50,7 @@ class Do extends React.Component<any, any> {
             data-aos-once="true"
             data-aos-offet="-200px"
           >
-            Pantheon X
+            PANTHEON X
           </h4>
           <p
             className="brandexplain"
@@ -69,6 +69,7 @@ class Do extends React.Component<any, any> {
         <Col md lg xl={{span: 3, offset: 1}}>
           <a
             href="https://volta.link/landing"
+            target="blank"
             className="volta_bg"
             // data-aos="fade-up"
             // data-aos-delay="0"

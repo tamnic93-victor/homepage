@@ -1,15 +1,17 @@
 .brand {
+    color: #292929;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 6vh;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .brandexplain {
+    color: #585858;
     font-size: 1.1rem;
     font-weight: normal;
     margin-top: 2vh;
-    margin-bottom: 16vh;
     letter-spacing: 0.45px;
     line-height: 1.8;
     text-align: center;
@@ -17,7 +19,7 @@
 
 .pantheonx_bg {
     width: 100%;
-    height: 22rem;
+    height: 20rem;
     background-color: #1b4f78;
     display: flex;
     box-shadow: 0 8px 16px 0 rgba(54, 72, 86, 0.5);
@@ -37,12 +39,12 @@
 
 .pantheonx {
     width: 100%;
-    padding: 6rem 4rem;
+    padding: 5rem 4rem;
 }
 
 .volta_bg {
     width: 100%;
-    height: 22rem;
+    height: 20rem;
     background-color: #4d6ef5;
     display: flex;
     box-shadow: 0 8px 16px 0 rgba(54, 72, 86, 0.5);
@@ -62,5 +64,5 @@
 
 .volta {
     width: 100%;
-    padding: 7.4rem 5rem;
+    padding: 6.5rem 5rem;
 }

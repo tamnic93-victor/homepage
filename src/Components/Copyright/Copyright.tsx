@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Row} from 'react-bootstrap';
+import './Copyright.scss';
 
 /**
  * Copyright
@@ -8,8 +9,8 @@ import {Container, Row} from 'react-bootstrap';
 class Copyright extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-b" fluid>
-      <Row className="vh-100 align-items-center">
-        <h4 className="footertext">
+      <Row className="justify-content-center align-items-center">
+        <h4 className="footertext my-5 px-5">
           Copyright © 2020 bclabs Inc. All right reserved.
         </h4>
       </Row>

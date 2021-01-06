@@ -8,6 +8,11 @@ import sba from './img_sba.svg';
 import sparklabs from './img_sparklabs.svg';
 import './Partners.scss';
 
+const classNameData = 'rounded mx-auto d-block';
+
+const imgSrcData = [
+  blockcrafters, fintechlab, longhash, plugandplay, sba, sparklabs];
+
 /**
  * Partners
  * @return {JSX.Element}
@@ -19,50 +24,16 @@ class Partners extends React.Component<any, any> {
         <Col xs={12} className="text-center">
           <h3 className="sectiontitle">Partners</h3>
         </Col>
-        <Col md={4} lg={4} xl={4}>
-          <div
-            className="partners_bg"
-          >
-            <img
-              src={blockcrafters} className="partners"
-            />
-          </div>
-        </Col>
-        <Col md={4} lg={4} xl={4}>
-          <div
-            className="partners_bg"
-          >
-            <img src={fintechlab} className="partners"/>
-          </div>
-        </Col>
-        <Col md={4} lg={4} xl={4}>
-          <div
-            className="partners_bg"
-          >
-            <img src={longhash} className="partners"/>
-          </div>
-        </Col>
-        <Col md={4} lg={4} xl={4}>
-          <div
-            className="partners_bg"
-          >
-            <img src={plugandplay} className="partners"/>
-          </div>
-        </Col>
-        <Col md={4} lg={4} xl={4}>
-          <div
-            className="partners_bg"
-          >
-            <img src={sba} className="partners"/>
-          </div>
-        </Col>
-        <Col md={4} lg={4} xl={4}>
-          <div
-            className="partners_bg"
-          >
-            <img src={sparklabs} className="partners"/>
-          </div>
-        </Col>
+        {
+          imgSrcData.map((imgSrc, _index) => (
+            <Col md={4} lg={4} xl={4} key={_index}>
+              <div
+                className="partners_bg">
+                <img src={imgSrc} className={classNameData} alt="partner" />
+              </div>
+            </Col>
+          ))
+        }
       </Row>
     </Container>
   );

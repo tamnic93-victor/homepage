@@ -14,10 +14,7 @@ class Main extends React.Component<any, any> {
     <Container className="bg" fluid>
       <Navbar className="justify-content-center">
         <span className="logo">
-          <img
-            src={logo}
-            alt="BCLabs"
-          />
+          <img src={logo} alt="BCLabs" />
         </span>
       </Navbar>
       <hr className="logodiv"/>

@@ -11,14 +11,14 @@ import './Main.scss';
  */
 class Main extends React.Component<any, any> {
   render = (): JSX.Element => (
-    <Container className="bg-Main" fluid>
+    <Container className="bg-main" fluid>
       <Navbar className="justify-content-center">
         <span className="logo">
           <img src={logo} alt="BCLabs" />
         </span>
       </Navbar>
       <hr className="logodiv"/>
-      <Row className="vh-100 justify-content-center align-items-center">
+      <Row className="vh-main justify-content-center align-items-center">
         <Col sm={10} md={10} lg={10} xl={8} className="text-center">
           <h1
             className="mb-5 maintitle"
@@ -27,8 +27,7 @@ class Main extends React.Component<any, any> {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
-          >
+            data-aos-once="false">
             Universal Access to Digital Asset Management
           </h1>
           <p
@@ -37,20 +36,19 @@ class Main extends React.Component<any, any> {
             data-aos-delay="400"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
-            data-aos-once="false"
-          >
+            data-aos-once="false">
             With a team specializing in fintech, blockchain and data
             analytics, we seek to harness the cutting-edge innovations
             and address the growing technology gap in the global
             financial industry.
           </p>
           <div
+            className="subshape"
             data-aos="fade-up"
             data-aos-delay="800"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
-            data-aos-once="false"
-          >
+            data-aos-once="true">
             <img src={r1} alt="shape" />
           </div>
           <div
@@ -59,8 +57,7 @@ class Main extends React.Component<any, any> {
             data-aos-delay="800"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
-            data-aos-once="false"
-          >
+            data-aos-once="true">
             <img src={r2} alt="shape" />
           </div>
         </Col>

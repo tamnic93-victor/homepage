@@ -19,7 +19,7 @@ const imgSrcData = [
  */
 class Partners extends React.Component<any, any> {
   render = (): JSX.Element => (
-    <Container className="bg-w" fluid>
+    <Container className="bg-partners" fluid>
       <Row className="vh-100 justify-content-center mb-8">
         <Col xs={12} className="text-center">
           <h3 className="sectiontitle">Partners</h3>

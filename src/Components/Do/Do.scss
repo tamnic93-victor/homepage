@@ -1,32 +1,47 @@
-.bg-Do {
-    background: #ffffff;
-  }
-
-.brand {
-    color: #292929;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 6vh;
-    text-align: center;
-    letter-spacing: 1px;
+.vh-do {
+    height: auto;
 }
 
-.brandexplain {
-    color: #585858;
-    font-size: 1.1rem;
-    font-weight: normal;
-    margin-top: 2vh;
-    letter-spacing: 0.45px;
-    line-height: 1.8;
-    text-align: center;
+@media (min-width: 992px) {
+    .vh-do {
+        height: 100vh;
+    }
+}
+
+.bg-do {
+    background: #ffffff;
 }
 
 .pantheonx_bg {
-    width: 100%;
-    height: 20rem;
+    width: auto;
+    height: 14rem;
     background-color: #1b4f78;
     display: flex;
     box-shadow: 0 8px 16px 0 rgba(54, 72, 86, 0.5);
+}
+
+@media (min-width: 576px) {
+    .pantheonx_bg {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .pantheonx_bg {
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pantheonx_bg {
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .pantheonx_bg {
+        height: 18rem;
+    }
 }
 
 .pantheonx_bg:hover {
@@ -43,15 +58,75 @@
 
 .pantheonx {
     width: 100%;
-    padding: 5rem 4rem;
+    padding: 2.4rem;
+}
+
+@media (min-width: 576px) {
+    .pantheonx {
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .pantheonx {
+        padding: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .pantheonx {
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pantheonx {
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .pantheonx {
+        padding: 4.7rem;
+    }
 }
 
 .volta_bg {
-    width: 100%;
-    height: 20rem;
+    width: auto;
+    height: 14rem;
     background-color: #4d6ef5;
     display: flex;
     box-shadow: 0 8px 16px 0 rgba(54, 72, 86, 0.5);
+}
+
+@media (min-width: 576px) {
+    .volta_bg {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .volta_bg {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .volta_bg {
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .volta_bg {
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .volta_bg {
+        height: 18rem;
+    }
 }
 
 .volta_bg:hover {
@@ -68,5 +143,75 @@
 
 .volta {
     width: 100%;
-    padding: 6.5rem 5rem;
+    padding: 3.4rem;
+}
+
+@media (min-width: 576px) {
+    .volta {
+        padding: 6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .volta {
+        padding: 6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .volta {
+        padding: 5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .volta {
+        padding: 4.8rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .volta {
+        padding: 6rem;
+    }
+}
+
+.brand {
+    color: #292929;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.brandexplain {
+    color: #585858;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 1rem 0 8rem 0;
+    letter-spacing: 0.45px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .brandexplain {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .brandexplain {
+        height: 8rem;
+        font-size: 1rem;
+        margin-bottom: 16rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .brandexplain {
+        height: auto;
+        font-size: 1rem;
+    }
 }

@@ -1,4 +1,8 @@
-.bg-Main {
+.vh-main {
+  height: 100vh;
+}
+
+.bg-main {
     background: transparent url("./topimage.png") center/cover no-repeat fixed;
   }
 
@@ -92,6 +96,28 @@
 
 @media (min-width: 576px) {
   .mainshape {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainshape {
     display: block;
   }
+}
+
+.subshape {
+  display: none;
+}
+
+@media (min-width: 576px) {
+.subshape {
+  display: none;
+}
+}
+
+@media (min-width: 768px) {
+.subshape {
+  display: block;
+}
 }

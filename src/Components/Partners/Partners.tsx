@@ -1,11 +1,12 @@
 import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
-import blockcrafters from './img_blockcrafters.png';
-import fintechlab from './img_fintechlab.png';
-import longhash from './img_longhash.png';
-import plugandplay from './img_plugandplay.png';
-import sba from './img_sba.png';
-import sparklabs from './img_sparklabs.png';
+import blockcrafters from './img_blockcrafters.svg';
+import fintechlab from './img_fls.svg';
+import longhash from './img_longhash.svg';
+import plugandplay from './img_p&p.svg';
+import sba from './img_sba.svg';
+import sparklabs from './img_sparklabs.svg';
+import './Partners.scss';
 
 /**
  * Partners
@@ -14,27 +15,53 @@ import sparklabs from './img_sparklabs.png';
 class Partners extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-w" fluid>
-      <Row className="vh-100 justify-content-center align-items-center">
+      <Row className="vh-100 justify-content-center mb-8">
         <Col xs={12} className="text-center">
-          <h3>Partners</h3>
+          <h3 className="sectiontitle">Partners</h3>
         </Col>
-        <Col sm={4}>
-          <img src={blockcrafters} className="rounded mx-auto d-block"/>
+        <Col md={4} lg={4} xl={4}>
+          <div
+            className="partners_bg"
+          >
+            <img
+              src={blockcrafters} className="partners"
+            />
+          </div>
         </Col>
-        <Col sm={4}>
-          <img src={fintechlab} className="rounded mx-auto d-block"/>
+        <Col md={4} lg={4} xl={4}>
+          <div
+            className="partners_bg"
+          >
+            <img src={fintechlab} className="partners"/>
+          </div>
         </Col>
-        <Col sm={4}>
-          <img src={longhash} className="rounded mx-auto d-block"/>
+        <Col md={4} lg={4} xl={4}>
+          <div
+            className="partners_bg"
+          >
+            <img src={longhash} className="partners"/>
+          </div>
         </Col>
-        <Col sm={4}>
-          <img src={plugandplay} className="rounded mx-auto d-block"/>
+        <Col md={4} lg={4} xl={4}>
+          <div
+            className="partners_bg"
+          >
+            <img src={plugandplay} className="partners"/>
+          </div>
         </Col>
-        <Col sm={4}>
-          <img src={sba} className="rounded mx-auto d-block"/>
+        <Col md={4} lg={4} xl={4}>
+          <div
+            className="partners_bg"
+          >
+            <img src={sba} className="partners"/>
+          </div>
         </Col>
-        <Col sm={4}>
-          <img src={sparklabs} className="rounded mx-auto d-block"/>
+        <Col md={4} lg={4} xl={4}>
+          <div
+            className="partners_bg"
+          >
+            <img src={sparklabs} className="partners"/>
+          </div>
         </Col>
       </Row>
     </Container>

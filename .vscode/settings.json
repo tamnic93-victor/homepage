@@ -9,7 +9,5 @@
         "html",
         "markdown"
     ],
-    "editor.rulers": [
-    80,120
-    ]
+    "editor.rulers": [80,120]
 }

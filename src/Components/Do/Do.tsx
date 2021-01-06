@@ -37,9 +37,7 @@ class Do extends React.Component<any, any> {
             // data-aos-mirror="true"
             // data-aos-once="false"
           >
-            <img
-              src={pantheonx} className="pantheonx"
-            />
+            <img src={pantheonx} className="pantheonx" alt="PANTHEON X" />
           </a>
           <h4
             className="brand"
@@ -78,9 +76,7 @@ class Do extends React.Component<any, any> {
             // data-aos-mirror="true"
             // data-aos-once="false"
           >
-            <img
-              src={volta} className="volta"
-            />
+            <img src={volta} className="volta" alt="VOLTA" />
           </a>
           <h4
             className="brand"

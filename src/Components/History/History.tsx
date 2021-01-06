@@ -2,6 +2,35 @@ import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 import './History.scss';
 
+const historyData = [
+  {
+    date: 'Mar 2018',
+    desc: 'Company foundation',
+  },
+  {
+    date: 'Feb 2019',
+    desc: 'Contracted a blockchain project based in Singapore',
+  },
+  {
+    date: 'Oct 2019',
+    desc: 'Accelerated by Seoul Fintech Lab, SBA\n' +
+          'Seoul Business Association',
+  },
+  {
+    date: 'Aug 2020',
+    desc: 'Accelerated by SparkLabs and Plug & Play',
+  },
+  {
+    date: 'Dec 2020',
+    desc: 'Nominated as the Best Fintech Startup ' +
+          'GITEX Supernova Challenge 2020, Dubai',
+  },
+];
+
+const classNameDt = 'historydate mb-2';
+
+const classNameDd = 'history mb-5';
+
 /**
  * History
  * @return {JSX.Element}
@@ -13,32 +42,14 @@ class History extends React.Component<any, any> {
         <Col className="text-center mb-10">
           <h3 className="sectiontitle">Company History</h3>
           <dl>
-            <dt className="historydate mb-2">Mar 2018</dt>
-            <dd className="history mb-5">Company foundation</dd>
-            <dt className="historydate mb-2">Feb 2019</dt>
-            <dd
-              className="history mb-5"
-            >
-              Contracted a blockchain project based in Singapore
-            </dd>
-            <dt className="historydate mb-2">Oct 2019</dt>
-            <dd className="history mb-5">
-              Accelerated by Seoul Fintech Lab, SBA<br/>
-              Seoul Business Association
-            </dd>
-            <dt className="historydate mb-2">Aug 2020</dt>
-            <dd
-              className="history mb-5"
-            >
-              Accelerated by SparkLabs and Plug &amp; Play
-            </dd>
-            <dt className="historydate mb-2">Dec 2020</dt>
-            <dd
-              className="history mb-5"
-            >
-              Nominated as the Best Fintech Startup GITEX Supernova Challenge
-              2020, Dubai
-            </dd>
+            {
+              historyData.map((history, _index) => (
+                <React.Fragment key={_index}>
+                  <dt className={classNameDt}>{history.date}</dt>
+                  <dd className={classNameDd}>{history.desc}</dd>
+                </React.Fragment>
+              ))
+            }
           </dl>
         </Col>
       </Row>

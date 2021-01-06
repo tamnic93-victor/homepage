@@ -7,6 +7,11 @@ import plugandplay from './img_plugandplay.png';
 import sba from './img_sba.png';
 import sparklabs from './img_sparklabs.png';
 
+const classNameData = 'rounded mx-auto d-block';
+
+const imgSrcData = [
+  blockcrafters, fintechlab, longhash, plugandplay, sba, sparklabs];
+
 /**
  * Partners
  * @return {JSX.Element}
@@ -18,24 +23,13 @@ class Partners extends React.Component<any, any> {
         <Col xs={12} className="text-center">
           <h3>Partners</h3>
         </Col>
-        <Col sm={4}>
-          <img src={blockcrafters} className="rounded mx-auto d-block"/>
-        </Col>
-        <Col sm={4}>
-          <img src={fintechlab} className="rounded mx-auto d-block"/>
-        </Col>
-        <Col sm={4}>
-          <img src={longhash} className="rounded mx-auto d-block"/>
-        </Col>
-        <Col sm={4}>
-          <img src={plugandplay} className="rounded mx-auto d-block"/>
-        </Col>
-        <Col sm={4}>
-          <img src={sba} className="rounded mx-auto d-block"/>
-        </Col>
-        <Col sm={4}>
-          <img src={sparklabs} className="rounded mx-auto d-block"/>
-        </Col>
+        {
+          imgSrcData.map((imgSrc, _index) => (
+            <Col sm={4} key={_index}>
+              <img src={imgSrc} className={classNameData} alt="partner" />
+            </Col>
+          ))
+        }
       </Row>
     </Container>
   );

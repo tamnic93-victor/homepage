@@ -18,3 +18,32 @@ $ yarn start
 * [TypeScrypt](https://www.typescriptlang.org)
 * [sass](https://sass-lang.com)
 * [npm](https://www.npmjs.com)
+
+
+## SonarQube
+
+### requirement
+
+* docker
+  ```shell
+  $ brew install docker
+  ```
+  > check `docker login`
+
+* sonarqube
+  ```shell
+  $ ./sonarqube.sh 
+  ```
+  * `login`
+  * `create` project
+  * `generator token`
+  * add environment variables
+    ```shell
+    export SONAR_TOKEN=<token>
+    ```
+
+### run example
+
+```shell
+$ yarn test
+```

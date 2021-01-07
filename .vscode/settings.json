@@ -8,5 +8,6 @@
         "typescriptreact",
         "html",
         "markdown"
-    ]
+    ],
+    "editor.rulers": [80,120]
 }

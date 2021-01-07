@@ -1,0 +1,123 @@
+.vh-main {
+  height: 100vh;
+}
+
+.bg-main {
+    background: transparent url("./topimage.png") center/cover no-repeat fixed;
+  }
+
+.logo {
+    margin: 1rem 0;
+}
+
+.logodiv {
+    display: block;
+    border-bottom: 1px solid white;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+    opacity: 0.1;
+}
+
+.maintitle {
+    font-size: 8vw;
+    font-weight: 700;
+    color: white;
+    line-height: 1.47;
+    letter-spacing: 2.97px;
+    margin: auto 1rem auto 1rem;
+}
+
+@media (min-width: 576px) {
+    .maintitle {
+      font-size: 8vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .maintitle {
+      font-size: 5.5vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .maintitle {
+      font-size: 5.5vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .maintitle {
+      font-size: 4vw;
+    }
+}
+
+
+.slogan {
+    font-size: 3.5vw;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 2.39;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin: 0 2rem 6rem 2rem;
+}
+
+@media (min-width: 576px) {
+    .slogan {
+      font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .slogan {
+      font-size: 2vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .slogan {
+      font-size: 2vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slogan {
+      font-size: 1vw;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+.mainshape {
+    margin-bottom: 2rem;
+    display: none;
+}
+
+@media (min-width: 576px) {
+  .mainshape {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainshape {
+    display: block;
+  }
+}
+
+.subshape {
+  display: none;
+}
+
+@media (min-width: 576px) {
+.subshape {
+  display: none;
+}
+}
+
+@media (min-width: 768px) {
+.subshape {
+  display: block;
+}
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <g id="Screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1536" transform="translate(-758.000000, -617.000000)" stroke="#FFBE32">
+            <rect id="Rectangle" transform="translate(768.000000, 626.899495) rotate(45.000000) translate(-768.000000, -626.899495) " x="761.5" y="620.399495" width="13" height="13"></rect>
+        </g>
+    </g>
+</svg>

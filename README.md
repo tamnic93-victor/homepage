@@ -35,6 +35,7 @@ $ yarn start
   $ ./sonarqube.sh 
   ```
   * `login`
+  > id `admin` / pw `admin`
   * `create` project
   * `generator token`
   * add environment variables

@@ -18,7 +18,8 @@ class Copyright extends React.Component<any, any> {
             data-aos-duration="2000"
             data-aos-easing="ease"
             data-aos-mirror="true"
-            data-aos-once="true">
+            data-aos-once="true"
+            data-aos-offset="-300">
             Copyright © 2020 bclabs Inc. All right reserved.
           </h4>
         </Col>

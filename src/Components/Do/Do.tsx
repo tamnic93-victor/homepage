@@ -28,7 +28,10 @@ class Do extends React.Component<any, any> {
           <a
             href="https://pantheonx.io/#/home/en"
             target="blank" className="pantheonx_bg">
-            <img src={pantheonx} className="pantheonx" alt="PANTHEON X" />
+            <object type="image/svg+xml" className="pantheonx" data={pantheonx}>
+              <img src={pantheonx} className="pantheonx" alt="PANTHEON X" />
+              <span className="sr-only">PANTHEON X</span>
+            </object>
           </a>
           <h4
             className="brand"
@@ -61,7 +64,10 @@ class Do extends React.Component<any, any> {
           <a
             href="https://volta.link/landing"
             target="blank" className="volta_bg">
-            <img src={volta} className="volta" alt="VOLTA" />
+            <object type="image/svg+xml" className="volta" data={volta}>
+              <img src={volta} className="volta" alt="VOLTA" />
+              <span className="sr-only">VOLTA</span>
+            </object>
           </a>
           <h4
             className="brand"

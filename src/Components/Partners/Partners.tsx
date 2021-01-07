@@ -3,7 +3,7 @@ import {Col, Container, Row} from 'react-bootstrap';
 import blockcrafters from './img_blockcrafters.svg';
 import fintechlab from './img_fls.svg';
 import longhash from './img_longhash.svg';
-import plugandplay from './img_p&p.svg';
+import plugandplay from './img_pnp.svg';
 import sba from './img_sba.svg';
 import sparklabs from './img_sparklabs.svg';
 import './Partners.scss';

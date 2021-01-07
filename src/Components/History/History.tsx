@@ -2,34 +2,6 @@ import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 import './History.scss';
 
-const historyData = [
-  {
-    date: 'Mar 2018',
-    desc: 'Company foundation',
-  },
-  {
-    date: 'Feb 2019',
-    desc: 'Contracted a blockchain project based in Singapore',
-  },
-  {
-    date: 'Oct 2019',
-    desc: 'Accelerated by Seoul Fintech Lab, SBA\n' +
-          'Seoul Business Association',
-  },
-  {
-    date: 'Aug 2020',
-    desc: 'Accelerated by SparkLabs and Plug & Play',
-  },
-  {
-    date: 'Dec 2020',
-    desc: 'Nominated as the Best Fintech Startup ' +
-          'GITEX Supernova Challenge 2020, Dubai',
-  },
-];
-
-const classNameDt = 'historydate mb-2';
-
-const classNameDd = 'history mb-5';
 
 /**
  * History
@@ -38,18 +10,125 @@ const classNameDd = 'history mb-5';
 class History extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-history" fluid>
-      <Row className="justify-content-center">
-        <Col className="text-center mb-10">
-          <h3 className="sectiontitle">Company History</h3>
-          <dl>
-            {
-              historyData.map((history, _index) => (
-                <React.Fragment key={_index}>
-                  <dt className={classNameDt}>{history.date}</dt>
-                  <dd className={classNameDd}>{history.desc}</dd>
-                </React.Fragment>
-              ))
-            }
+      <Row className="vh-history justify-content-center align-items-center">
+        <Col xs={10} sm={10} md={8} lg={6} xl={8} className="history">
+          <h3
+            className="section-title mb-0"
+            style={{color: 'white'}}
+            data-aos="fade-down"
+            data-aos-delay="0"
+            data-aos-duration="2000"
+            data-aos-easing="ease"
+            data-aos-mirror="true"
+            data-aos-once="true">
+            Company History
+          </h3>
+          <dl className="history-list">
+            <hr className="history-div"/>
+            <dt
+              className="history-date-start"
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Mar 2018
+            </dt>
+            <dd
+              className='history clearfix'
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Company foundation
+            </dd>
+            <hr className="history-div"/>
+            <dt
+              className="history-date"
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Feb 2019
+            </dt>
+            <dd
+              className='history clearfix'
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Contracted a blockchain project based in Singapore
+            </dd>
+            <dt
+              className="history-date"
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Oct 2019
+            </dt>
+            <dd
+              className='history clearfix'
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Accelerated by Seoul Fintech Lab, SBA, Seoul Business Association
+            </dd>
+            <hr className="history-div"/>
+            <dt
+              className="history-date"
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Aug 2020
+            </dt>
+            <dd
+              className='history clearfix'
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Accelerated by SparkLabs and Plug and Play
+            </dd>
+            <dt
+              className="history-date"
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Dec 2020
+            </dt>
+            <dd
+              className='history clearfix'
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true">
+              Nominated as the Best Fintech Startup, GITEX Supernova Challenge
+              2020, Dubai
+            </dd>
+            <hr className="history-div"/>
           </dl>
         </Col>
       </Row>

@@ -3,22 +3,24 @@
 }
 
 .bg-main {
-    background: transparent url("./topimage.png") center/cover no-repeat fixed;
-  }
+  background: transparent url("./topimage.png") center/cover no-repeat fixed;
+}
 
 .logo {
     margin: 1rem 0;
 }
 
-.logodiv {
+.logo-div {
     display: block;
     border-bottom: 1px solid white;
     margin-top: 0.1rem;
     margin-bottom: 0;
     opacity: 0.1;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
 }
 
-.maintitle {
+.main-title {
     font-size: 8vw;
     font-weight: 700;
     color: white;
@@ -28,25 +30,25 @@
 }
 
 @media (min-width: 576px) {
-    .maintitle {
+    .main-title {
       font-size: 8vw;
     }
 }
 
 @media (min-width: 768px) {
-    .maintitle {
+    .main-title {
       font-size: 5.5vw;
     }
 }
 
 @media (min-width: 992px) {
-    .maintitle {
+    .main-title {
       font-size: 5.5vw;
     }
 }
 
 @media (min-width: 1200px) {
-    .maintitle {
+    .main-title {
       font-size: 4vw;
     }
 }

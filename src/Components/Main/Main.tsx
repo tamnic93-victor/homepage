@@ -12,16 +12,16 @@ import './Main.scss';
 class Main extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-main" fluid>
-      <Navbar className="justify-content-center">
+      <Navbar className="nav-main justify-content-center">
         <span className="logo">
           <img src={logo} alt="BCLabs" />
         </span>
       </Navbar>
-      <hr className="logodiv"/>
+      <hr className="logo-div"/>
       <Row className="vh-main justify-content-center align-items-center">
         <Col sm={10} md={10} lg={10} xl={8} className="text-center">
           <h1
-            className="mb-5 maintitle"
+            className="mb-5 main-title"
             data-aos="fade"
             data-aos-delay="200"
             data-aos-duration="2000"

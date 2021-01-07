@@ -1,18 +1,166 @@
-.bg-history {
-    background-color: #fbfbfb;
+.vh-history {
+    height: auto;
 }
 
-.historydate {
-    color: #292929;
-    font-size: 1.6rem;
-    font-weight: 500;
+@media (min-width: 1200px) {
+    .vh-history {
+        height: 100vh;
+    }
+}
+
+
+.history {
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .history {
+      text-align: left;
+    }
+  }
+
+.bg-history {
+    background: transparent url("./img_history.png") center/cover no-repeat fixed;
+}
+
+.history-list {
+    margin-bottom: 5rem;
+}
+
+.history-div {
+    display: block;
+    border-bottom: 1px solid white;
+    margin-top: 0.1rem;
+    margin-bottom: 3rem;
+    opacity: 0.1;
+}
+
+@media (min-width: 576px) {
+    .history-div {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .history-div {
+      display: none;
+    }
+}
+
+.history-date {
+    color: #ffbc02;
+    font-size: 1.2rem;
+    font-weight: 700;
     letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+}
+
+@media (min-width: 576px) {
+    .history-date {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .history-date {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .history-date {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .history-date {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .history-date {
+        font-size: 1.2rem;
+    }
 }
 
 .history {
-    color: #585858;
-    font-size: 1.1rem;
+    color: #fbfbfb;
+    font-size: 1rem;
     line-height: 2;
     letter-spacing: 1px;
-    white-space: pre-line;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 576px) {
+    .history {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .history {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .history {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .history {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .history {
+        font-size: 1rem;
+    }
+}
+
+.history-date-start {
+    color: #ffbc02;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+}
+
+@media (min-width: 576px) {
+    .history-date-start {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .history-date-start {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .history-date-start {
+        font-size: 1.6rem;
+        margin-top: 8rem
+    }
+}
+
+@media (min-width: 1200px) {
+    .history-date-start {
+        font-size: 1.2rem;
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .history-date-start {
+        font-size: 1.2rem;
+    }
 }

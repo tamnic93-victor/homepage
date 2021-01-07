@@ -12,19 +12,19 @@ class Do extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-do" fluid>
       <Row className="vh-do justify-content-center align-items-center">
-        <Col xs={12} className="text-center">
+        <Col xs={10} className="text-center">
           <h2
-            className="sectiontitle"
+            className="section-title"
             data-aos="fade-down"
             data-aos-delay="0"
             data-aos-duration="2000"
             data-aos-easing="ease"
             data-aos-mirror="true"
             data-aos-once="true">
-            What We Do
+            What We <span className="title-bold">Do</span>
           </h2>
         </Col>
-        <Col xs={10} sm={10} md={8} lg={4} xl={4}>
+        <Col xs={10} sm={10} md={8} lg={4} xl={3}>
           <a
             href="https://pantheonx.io/#/home/en"
             target="blank" className="pantheonx_bg">
@@ -57,7 +57,7 @@ class Do extends React.Component<any, any> {
           xs={10}
           md={8}
           lg={{span: 4, offset: 1}}
-          xl={{span: 4, offset: 1}}>
+          xl={{span: 3, offset: 1}}>
           <a
             href="https://volta.link/landing"
             target="blank" className="volta_bg">

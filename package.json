@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.9.8",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.3",
+    "fullpage.js": "^3.0.9",
     "node-sass": "^4.0.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",

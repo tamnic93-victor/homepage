@@ -81,7 +81,7 @@
 
 @media (min-width: 1200px) {
     .pantheonx {
-        padding: 4rem;
+        padding: 3rem;
     }
 }
 
@@ -189,7 +189,7 @@
     color: #585858;
     font-size: 1rem;
     font-weight: normal;
-    margin: 1rem 0 8rem 0;
+    margin: 1rem 0 6rem 0;
     letter-spacing: 0.45px;
     line-height: 1.8;
     text-align: center;
@@ -205,13 +205,6 @@
     .brandexplain {
         height: 8rem;
         font-size: 1rem;
-        margin-bottom: 16rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    .brandexplain {
-        height: auto;
-        font-size: 1rem;
+        margin-bottom: 12rem;
     }
 }

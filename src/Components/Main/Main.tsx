@@ -12,7 +12,7 @@ import './Main.scss';
 class Main extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-main" fluid>
-      <Navbar className="nav-main justify-content-center">
+      <Navbar className="justify-content-center">
         <span className="logo">
           <img src={logo} alt="BCLabs" />
         </span>

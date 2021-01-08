@@ -21,7 +21,8 @@ class Do extends React.Component<any, any> {
             data-aos-easing="ease"
             data-aos-mirror="true"
             data-aos-once="true">
-            What We <span className="title-bold">Do</span>
+            <span className="section-bold">
+            Take a look</span> at our wonderful projects
           </h2>
         </Col>
         <Col xs={10} sm={10} md={8} lg={4} xl={3}>

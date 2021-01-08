@@ -11,7 +11,7 @@ class History extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-history" fluid>
       <Row className="vh-history justify-content-center align-items-center">
-        <Col xs={10} sm={10} md={8} lg={6} xl={8} className="history">
+        <Col xs={10} sm={10} md={8} lg={6} xl={7} className="history">
           <h3
             className="section-title mb-0"
             style={{color: 'white'}}
@@ -21,10 +21,10 @@ class History extends React.Component<any, any> {
             data-aos-easing="ease"
             data-aos-mirror="true"
             data-aos-once="true">
-            Company History
+            Our meaningful <span className="section-bold">footsteps</span>
           </h3>
           <dl className="history-list">
-            <hr className="history-div"/>
+            <hr className="history-div mt-5"/>
             <dt
               className="history-date-start"
               data-aos="fade-up"

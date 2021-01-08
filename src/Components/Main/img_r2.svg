@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Rectangle Copy</title>
-    <g id="Screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="1536" transform="translate(-758.000000, -637.000000)" fill="#FFBE32">
-            <rect id="Rectangle-Copy" transform="translate(768.000000, 646.899495) rotate(45.000000) translate(-768.000000, -646.899495) " x="761" y="639.899495" width="14" height="14"></rect>
-        </g>
-    </g>
-</svg>
+<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M10 0l9.9 9.9-9.9 9.899-9.9-9.9z" fill="#FFBE32" fill-rule="evenodd"/></svg>

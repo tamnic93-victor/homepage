@@ -20,7 +20,8 @@ class Do extends React.Component<any, any> {
             data-aos-duration="2000"
             data-aos-easing="ease"
             data-aos-mirror="true"
-            data-aos-once="true">
+            data-aos-once="true"
+            data-aos-offset='-100'>
             <span className="section-bold">
             Take a look</span> at our wonderful projects
           </h2>
@@ -41,7 +42,7 @@ class Do extends React.Component<any, any> {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            data-aos-offet="-200px">
+            data-aos-offset="-200">
             PANTHEON X
           </h4>
           <p
@@ -52,7 +53,7 @@ class Do extends React.Component<any, any> {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            data-aos-offet="-300px">
+            data-aos-offset="-200">
             A blockchain project that seeks to realize an open
             business platform for digital asset finance.
           </p>
@@ -77,7 +78,7 @@ class Do extends React.Component<any, any> {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            data-aos-offet="-200px">
+            data-aos-offset="-200">
             VOLTA
           </h4>
           <p
@@ -88,7 +89,7 @@ class Do extends React.Component<any, any> {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            data-aos-offet="-300px">
+            data-aos-offset="-200">
             All-in-one digital asset management platform
             for investors and trading experts.
           </p>

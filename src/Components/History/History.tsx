@@ -20,7 +20,8 @@ class History extends React.Component<any, any> {
             data-aos-duration="2000"
             data-aos-easing="ease"
             data-aos-mirror="true"
-            data-aos-once="true">
+            data-aos-once="true"
+            data-aos-offset='-100'>
             Our meaningful <span className="section-bold">footsteps</span>
           </h3>
           <dl className="history-list">
@@ -32,7 +33,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Mar 2018
             </dt>
             <dd
@@ -42,7 +44,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Company foundation
             </dd>
             <hr className="history-div"/>
@@ -53,7 +56,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Feb 2019
             </dt>
             <dd
@@ -63,7 +67,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Contracted a blockchain project based in Singapore
             </dd>
             <dt
@@ -73,7 +78,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Oct 2019
             </dt>
             <dd
@@ -83,7 +89,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Accelerated by Seoul Fintech Lab, SBA, Seoul Business Association
             </dd>
             <hr className="history-div"/>
@@ -94,7 +101,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Aug 2020
             </dt>
             <dd
@@ -104,7 +112,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Accelerated by SparkLabs and Plug and Play
             </dd>
             <dt
@@ -114,7 +123,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Dec 2020
             </dt>
             <dd
@@ -124,7 +134,8 @@ class History extends React.Component<any, any> {
               data-aos-duration="2000"
               data-aos-easing="ease"
               data-aos-mirror="true"
-              data-aos-once="true">
+              data-aos-once="true"
+              data-aos-offset='-300'>
               Nominated as the Best Fintech Startup, GITEX Supernova Challenge
               2020, Dubai
             </dd>

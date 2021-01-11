@@ -13,7 +13,7 @@ class Copyright extends React.Component<any, any> {
         <Col className="text-center">
           <h4
             className="footer-text mb-0"
-            data-aos="zoom-out"
+            data-aos="fade"
             data-aos-delay="0"
             data-aos-duration="2000"
             data-aos-easing="ease"

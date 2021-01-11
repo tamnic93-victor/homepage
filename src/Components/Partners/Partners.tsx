@@ -59,7 +59,8 @@ class Partners extends React.Component<any, any> {
             data-aos-duration="2000"
             data-aos-easing="ease"
             data-aos-mirror="true"
-            data-aos-once="true">
+            data-aos-once="true"
+            data-aos-offset='-100'>
             <span
               className="section-bold">
               Let me introduce</span> our reliable partner.

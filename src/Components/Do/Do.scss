@@ -44,6 +44,12 @@
     }
 }
 
+@media (min-width: 2100px) {
+    .pantheonx_bg {
+        height: 22rem;
+    }
+}
+
 .pantheonx_bg:hover {
     background-color: #26608d;
     box-shadow: 0 16px 32px 0 rgba(54, 72, 86, 0.5);
@@ -91,6 +97,12 @@
     }
 }
 
+@media (min-width: 2100px) {
+    .pantheonx {
+        padding: 5.2rem;
+    }
+}
+
 .volta_bg {
     width: auto;
     height: 14rem;
@@ -126,6 +138,12 @@
 @media (min-width: 1486px) {
     .volta_bg {
         height: 18rem;
+    }
+}
+
+@media (min-width: 2100px) {
+    .volta_bg {
+        height: 22rem;
     }
 }
 
@@ -176,6 +194,12 @@
     }
 }
 
+@media (min-width: 1486px) {
+    .volta {
+        padding: 6.4rem;
+    }
+}
+
 .brand {
     color: #292929;
     font-size: 1.5rem;
@@ -183,6 +207,12 @@
     margin-top: 4rem;
     text-align: center;
     letter-spacing: 1px;
+}
+
+@media (min-width: 2100px) {
+    .brand {
+        font-size: 2rem;
+    }
 }
 
 .brandexplain {
@@ -206,6 +236,14 @@
     .brandexplain {
         height: 8rem;
         font-size: 1rem;
+        margin-bottom: 10rem;
+    }
+}
+
+@media (min-width: 2100px) {
+    .brandexplain {
+        height: 8rem;
+        font-size: 1.4rem;
         margin-bottom: 10rem;
     }
 }

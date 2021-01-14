@@ -34,7 +34,7 @@ class Copyright extends React.Component<any, any> {
             data-aos-mirror="true"
             data-aos-once="true"
             data-aos-offset="-100">
-            info@bclabs.co.kr
+            <a href="mailto:info@bclabs.co.kr">info@bclabs.co.kr</a>
           </h4>
         </Col>
         <Col sm={12} className="text-center">

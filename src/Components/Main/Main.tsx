@@ -12,9 +12,12 @@ import './Main.scss';
 class Main extends React.Component<any, any> {
   render = (): JSX.Element => (
     <Container className="bg-main" fluid>
-      <Navbar className="nav-main justify-content-center">
+      <Navbar className="justify-content-center">
         <span className="logo">
-          <img src={logo} alt="BCLabs" />
+          <object type="image/svg+xml" data={logo}>
+            <img src={logo} alt="BCLabs" />
+            <span className="sr-only">BCLabs</span>
+          </object>
         </span>
       </Navbar>
       <hr className="logo-div"/>
@@ -49,7 +52,9 @@ class Main extends React.Component<any, any> {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos-once="true">
-            <img src={r1} alt="shape" />
+            <object type="image/svg+xml" data={r1}>
+              <img src={r1} alt="shape" />
+            </object>
           </div>
           <div
             className="mainshape"
@@ -58,7 +63,9 @@ class Main extends React.Component<any, any> {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos-once="true">
-            <img src={r2} alt="shape" />
+            <object type="image/svg+xml" data={r2}>
+              <img src={r2} alt="shape" />
+            </object>
           </div>
         </Col>
       </Row>

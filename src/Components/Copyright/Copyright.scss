@@ -2,12 +2,33 @@
     background-color: black;
 }
 
-.footer-text {
+.bg-contact {
+    background-color: #181818;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    align-items: center;
+    padding: 0.6rem;
+}
+
+.contact-text{
     color: #c8c8c8;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    line-height: 1.6;
+    text-align: center;
+    a, a:hover, :active {
+        color: #c8c8c8;
+    }
+}
+
+.footer-text {
+    color: #282828;
+    font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 1.6;
     text-align: center;
-    padding: 2rem 3rem;
+    padding: 0rem 2rem 3rem 2rem;
 }

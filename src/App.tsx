@@ -3,7 +3,7 @@ import Copyright from './Components/Copyright/Copyright';
 import Do from './Components/Do/Do';
 import History from './Components/History/History';
 import Main from './Components/Main/Main';
-// import Partners from './Components/Partners/Partners';
+import Partners from './Components/Partners/Partners';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
@@ -17,7 +17,7 @@ class App extends React.Component<any, any> {
       <Main/>
       <Do/>
       <History/>
-      {/* <Partners/> */}
+      <Partners/>
       <Copyright/>
     </React.Fragment>
   );

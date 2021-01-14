@@ -1,0 +1,251 @@
+.vh-do {
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .vh-do {
+        height: 100vh;
+    }
+}
+
+.bg-do {
+    background: #ffffff;
+}
+
+.pantheonx_bg {
+    width: auto;
+    height: 14rem;
+    background-color: #1b4f78;
+    display: flex;
+    box-shadow: 0 8px 16px 0 rgba(54, 72, 86, 0.5);
+}
+
+@media (min-width: 576px) {
+    .pantheonx_bg {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .pantheonx_bg {
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pantheonx_bg {
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .pantheonx_bg {
+        height: 18rem;
+    }
+}
+
+@media (min-width: 2100px) {
+    .pantheonx_bg {
+        height: 22rem;
+    }
+}
+
+.pantheonx_bg:hover {
+    background-color: #26608d;
+    box-shadow: 0 16px 32px 0 rgba(54, 72, 86, 0.5);
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+
+.pantheonx_bg:active {
+    background-color: #1b4f78;
+    box-shadow: 0 8px 16px 0 rgba(54, 72, 86, 0.5);
+}
+
+.pantheonx {
+    width: 100%;
+    padding: 2.4rem;
+    pointer-events: none;
+}
+
+@media (min-width: 576px) {
+    .pantheonx {
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .pantheonx {
+        padding: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .pantheonx {
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pantheonx {
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .pantheonx {
+        padding: 4.7rem;
+    }
+}
+
+@media (min-width: 2100px) {
+    .pantheonx {
+        padding: 5.2rem;
+    }
+}
+
+.volta_bg {
+    width: auto;
+    height: 14rem;
+    background-color: #4d6ef5;
+    display: flex;
+    box-shadow: 0 8px 16px 0 rgba(54, 72, 86, 0.5);
+}
+
+@media (min-width: 576px) {
+    .volta_bg {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .volta_bg {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .volta_bg {
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .volta_bg {
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .volta_bg {
+        height: 18rem;
+    }
+}
+
+@media (min-width: 2100px) {
+    .volta_bg {
+        height: 22rem;
+    }
+}
+
+.volta_bg:hover {
+    background-color: #5577FF;
+    box-shadow: 0 16px 32px 0 rgba(54, 72, 86, 0.5);
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+
+.volta_bg:active {
+    background-color: #4d6ef5;
+    box-shadow: 0 8px 16px 0 rgba(54, 72, 86, 0.5);
+}
+
+.volta {
+    width: 100%;
+    padding: 3.4rem;
+    pointer-events: none;
+}
+
+@media (min-width: 576px) {
+    .volta {
+        padding: 6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .volta {
+        padding: 6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .volta {
+        padding: 5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .volta {
+        padding: 4.8rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .volta {
+        padding: 6rem;
+    }
+}
+
+@media (min-width: 1486px) {
+    .volta {
+        padding: 6.4rem;
+    }
+}
+
+.brand {
+    color: #292929;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 2100px) {
+    .brand {
+        font-size: 2rem;
+    }
+}
+
+.brandexplain {
+    color: #585858;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 1rem 0 6rem 0;
+    letter-spacing: 0.45px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .brandexplain {
+        font-size: 1.2rem;
+        margin-bottom: 10rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .brandexplain {
+        height: 8rem;
+        font-size: 1rem;
+        margin-bottom: 10rem;
+    }
+}
+
+@media (min-width: 2100px) {
+    .brandexplain {
+        height: 8rem;
+        font-size: 1.4rem;
+        margin-bottom: 10rem;
+    }
+}

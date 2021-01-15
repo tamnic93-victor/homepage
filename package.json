@@ -1,7 +1,8 @@
 {
   "name": "homepage",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.2",
+  "private": false,
+  "license": "MIT",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.18",
     "@testing-library/jest-dom": "^5.11.4",

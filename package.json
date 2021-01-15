@@ -30,7 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --coverage --watchAll false --testResultsProcessor jest-sonar-reporter",
     "posttest": "node sonarqube.js",
-    "deploy": "cross-env PUBLIC_URL=https://balabs-co-ltd.github.io/homepage react-scripts build && gh-pages -d build",
+    "deploy": "cross-env PUBLIC_URL=/homepage react-scripts build && gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

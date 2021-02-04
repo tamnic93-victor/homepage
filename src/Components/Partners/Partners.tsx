@@ -63,7 +63,7 @@ class Partners extends React.Component<any, any> {
             data-aos-offset='-100'>
             <span
               className="section-bold">
-              Let me introduce</span> our reliable partner.
+              Let us introduce</span> our reliable partners.
           </h3>
         </Col>
         {

@@ -54,7 +54,7 @@ class Do extends React.Component<any, any> {
             data-aos-mirror="true"
             data-aos-once="true"
             data-aos-offset="-200">
-            A blockchain project that seeks to realize an open
+            Blockchain project that seeks to realize an open
             business platform for digital asset finance.
           </p>
         </Col>

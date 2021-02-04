@@ -40,8 +40,8 @@ class Main extends React.Component<any, any> {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos-once="false">
-            With a team specializing in fintech, blockchain and data
-            analytics, we seek to harness the cutting-edge innovations
+            With a team specializing in fintech, blockchain, and data
+            analytics, we seek to harness cutting-edge innovations
             and address the growing technology gap in the global
             financial industry.
           </p>
